@@ -1,0 +1,93 @@
+body{
+    background-color:#D3D3D3;
+    font-family:"Fondamento", cursive;
+    align-content: center;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    padding: 20px 20px;
+    background-color: #00274D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+#info {
+    max-height: 0;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: max-height .5s ease;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 0;
+    border: none;
+}
+
+.despliega {
+    display: none;
+}
+
+.despliega:checked + .boton + #info {
+    max-height: 200px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #00274D;
+     color: white;
+}
+
+* {
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+ul, ol {
+list-style:none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav &gt; li {
+float:left;
+}
+
+.nav li a {
+background-color:#00274D;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
+
+.video-container {
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+
+.video-container video {
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+
+}

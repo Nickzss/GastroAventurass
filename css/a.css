@@ -1,0 +1,54 @@
+
+body {
+    background-color: #D3D3D3;
+    font-family: "Fondamento", cursive;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.texto {
+    font-size: 20px; 
+    margin: 10px;
+    padding: 10px; 
+    border: 2px solid white; 
+    border-radius: 8px; 
+    text-align: center;
+    background-color: #00274D ;
+       color: white;
+}
+
+* {
+    
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+ul, ol {
+list-style:none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav &gt; li {
+float:left;
+}
+
+.nav li a {
+background-color:#00274D ;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
